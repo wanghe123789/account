@@ -17,7 +17,8 @@ return array(
     //系统配置
     'HTML_CACHE_ON'         => false,       // 关闭静态缓存
     'URL_CASE_INSENSITIVE'  => false,       // 区分大小写(必须)
-    
+    'URL_MODEL' => 3,
+
     //应用配置信息
     'USER_LOGIN_TIMES'  => 10,              // 用户登录次
     'PAGE_SIZE'         => 15,              // 表格分页数
@@ -35,7 +36,7 @@ return array(
     'WX_SECRET'         => 'secret',        //微信小程序的 app secret
 
     //自定义配置
-    'XXJZ_TITLE'        => '小歆记账App',   //网站名称
+    'XXJZ_TITLE'        => '王叔记账',   //网站名称
     'XXJZ_KEYWORDS'     => '',              //网站关键字
     'XXJZ_DESCRIPTION'  => '',              //网站描述
     'XXJZ_WELCOME'      => '欢迎使用！',    //网站欢迎语
